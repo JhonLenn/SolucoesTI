@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" @media="screen and(max-width: 768px)" href="mobile.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,9 +12,9 @@
         <div id="navbar-container">
             <h1 class="logo">Soluçoes em TI</h1>
             <ul id="navbar-itens">
-                <li>Inico</li>
-                <li>Sobre</li>
-                <li>Galeria</li>
+                <li><a href="#showcase">Inico</a></li>
+                <li><a href="#clientes">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
             </ul>
         </div>
     </nav>
@@ -28,7 +29,7 @@
     <!--about-->
     <section id="clientes">
         <div class="headline">Nosso clientes</div>
-        <div id="clientes-conntainer">
+        <div id="clientes-container">
             <img src="img/google.png" alt="" class="cliente">
             <img src="img/netflix.png" alt="" class="cliente">
             <img src="img/apple.png" alt="" class="cliente">
@@ -36,22 +37,22 @@
         </div>
     </section>
 
-    <section id="features">
+    <section id="features"> 
         <div class="headline">O que fazemos</div>
         <div id="features-container">
             <div class="feature">
                 <i class="fa-solid fa-gauge-high fa-3x"></i>
-                <span class="feature-title"></span>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem illum ab tempora a quaerat.</p>
             </div>
             <div class="feature">
                 <i class="fas fa-code  fa-3x"></i>
-                <span class="feature-title"></span>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem illum ab tempora a quaerat.</p>
             </div>
             <div class="feature">
                 <i class="fas fa-layer-group fa-3x"></i>
-                <span class="feature-title"></span>
+                <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem illum ab tempora a quaerat.</p>
             </div>
         </div>
@@ -60,50 +61,50 @@
     <section id="product">
         <div class="headline">Nosso produto</div>
         <div id="product-container">
-            <img src="" alt="" class="iphone">
+            <img src="img/iphone.png" alt="" class="iphone" width="250px">
             <div id="itens">
-                <div class="itens">
-                    <div class="item">
-                        <i class="fa-solid fa-shield-halved fa-3x"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-globe fa-3x"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-business-time fa-3x"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-download fa-3x"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
-                    </div>
+                <div class="item">
+                    <i class="fa-solid fa-shield-halved fa-3x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-globe fa-3x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-business-time fa-3x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-download fa-3x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste quis, numquam recusandae magnam quisquam!</p>
                 </div>
             </div>
         </div>
     </section>
-    <div class="testimonials">
+    <div id="testimonials">
         <div class="headline">O que acham de nós</div>
-        <div id="testimoials-container">
+        <div id="testimonials-container">
             <div class="testimonial">
-                <img src="img/pessoa2.jpg" alt="" class="testimoial-image">
+                <img src="img/pessoa2.jpg" alt="" class="testimonial-image">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, doloribus temporibus perferendis molestiae voluptas quis. Illo ad dolor perspiciatis assumenda?</p>
             </div>
             <div class="testimonial">
-                <img src="img/Pessoa1.jpg" alt="" class="testimoial-image">
+                <img src="img/Pessoa1.jpg" alt="" class="testimonial-image">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, doloribus temporibus perferendis molestiae voluptas quis. Illo ad dolor perspiciatis assumenda?</p>
             </div>
         </div>
     </div>
 
-    <section id="galley">
+    <section id="gallery">
         <div class="headline">Galeria</div>
         <div id="gallery-container">
-            <img src="" alt="" class="galley-image">
-            <img src="" alt="" class="galley-image">
-            <img src="" alt="" class="galley-image">
-            <img src="" alt="" class="galley-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
+            <img src="img/grupo-de-pessoas-diversas-tendo-uma-reuniao-de-negocios.jpg" alt="" class="gallery-image">
         </div>
     </section>
 
