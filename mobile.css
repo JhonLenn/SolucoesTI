@@ -1,25 +1,56 @@
 @media screen and (max-width: 768px){
+
+body{
+    overflow-x:hidden;
+}
 #navbar{
-    height: 180px;
+    height: 80px;
+
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-#navbar-container{
-    flex-direction: column;
-    padding: 20px 0;
-    
+
+
+.mobile-menu{
+    cursor: pointer;
+    display: block; 
 }
+
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
 #navbar-itens{
+    position: absolute;
+    top: 9vh;
+    right: 0;
+    width: 30vw;
+    height: 92vh;
+    background-color: #111;
     flex-direction: column;
-    text-align: center;
-    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s ease ;
 }
-#navbar-itens li:nth-child(2){
-    border-top:  1px solid #333;
-    border-bottom:  1px solid #333;
+
+.navbar-asside{
+    transform: translateX(100%);
+   
+}
+
+#navbar-itens li{
+    margin-left: 0;
+}
+
+.active{
+    transform: translateX(0%);
 }
 
 /*showcase*/
